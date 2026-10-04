@@ -1,0 +1,15 @@
+name: "telemetry-collector"
+description: "Collects live telemetry streams from edge API gateways."
+input_schema:
+  type: object
+  properties:
+    target:
+      type: string
+      description: "Target identifier or URI."
+    mode:
+      type: string
+      enum: ["audit", "enforce", "simulate"]
+      description: "Operational mode."
+  required:
+    - target
+    - mode

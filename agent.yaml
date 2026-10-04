@@ -1,0 +1,21 @@
+spec_version: "0.1.0"
+name: "sentinel-flow-guard"
+version: "1.0.0"
+description: "Autonomous real-time API pipeline security and payload verification agent enforcing continuous contract checks and threat defense."
+author: "Chithra / GitAgent Automation Team <support@gitagent.org>"
+license: "Apache-2.0"
+metadata:
+  domain: "DevSecOps / Real-Time API Pipeline Security & Payload Verification"
+  category: "Developer tools"
+  framework: "OpenGAP / Python / FastAPI / Pydantic"
+  language: "Python"
+skills:
+  - "pipeline-telemetry-monitoring"
+  - "payload-schema-validation"
+  - "threat-signature-inspection"
+  - "automated-quarantine-dispatch"
+tools:
+  - "telemetry-collector"
+  - "schema-validator"
+  - "threat-scanner"
+  - "quarantine-manager"
